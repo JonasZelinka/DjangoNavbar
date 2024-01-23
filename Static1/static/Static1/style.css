@@ -60,7 +60,7 @@ body {
     color: black;
 }
 #showcase {
-    background: #333 url('../img/krzysztof-hepner-C1JTOq_uTpY-unsplash.jpg')no-repeat center center/cover;
+    background: #333 url('../Static1/pic.jpg') no-repeat center center/cover;
     height: 100vh;
     padding-top: 10px;
 }
@@ -168,7 +168,7 @@ body {
     
 }
 #who .who-img{
-    background: url('../img/maksym-kaharlytskyi-851_Smpkk-U-unsplash.jpg') no-repeat center center/cover;
+    background: url('../Static1/maksym-kaharlytskyi-851_Smpkk-U-unsplash.jpg') no-repeat center center/cover;
     height: 60vh;
     justify-content: center;
     
