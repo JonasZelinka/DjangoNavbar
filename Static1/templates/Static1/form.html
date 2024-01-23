@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrařní formulář</title>
+    <style>
+    .btn {
+        margin-top: 5px;
+    }
+    .my-1 {
+        margin: 8px 0;
+    }
+    div {
+        margin: 8px 0;
+    }
+    .auta {
+        margin: 8px;
+    }
+    table, td, tr{
+    border: 2px solid rgb(0, 0, 0);
+    background: aqua;
+    margin: 20px;
+    padding: 5px;
+    max-width: 500px;   
+    }
+    
+    </style>
+    <table>
+        <thead>
+            <tr>
+                <th>Web</th>
+                <th>Zakladatelé</th>
+                <th>Vznik</th>
+                <th>Recenze</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Shopify</td>
+                <td>Tobias Lutke, Scott Lake</td>
+                <td>2006</td>
+                <td>4/5</td>
+    
+            </tr>
+            <tr>
+                <td>Modalyst</td>
+                <td>Jill Sherman, Alain Miguel</td>
+                <td>2012</td>
+                <td>3,6/5</td>
+            </tr>
+            <tr>
+                <td>Megagoods</td>
+                <td>Mgeagoods Inc.</td>
+                <td>2004</td>
+                <td>3/5</td>
+            </tr>
+            <tr>
+                <td>Spocket</td>
+                <td>Saba Mohebpour</td>
+                <td>2012</td>
+                <td>3,5/5</td>
+            </tr>
+    
+    
+        </tbody>
+    </table>
+</head>
+<body>
+    <h1>Registrařní formulář</h1>
+    <form>
+        <div><label for="krestni">Křestní jméno</label></div>
+        <div><input type="text" name="krestni" id="krestni" placeholder="vaše křestní jméno"></div>
+        <div><label for="prijmeni">Příjmení</label></div>
+        <div><input type="text" name="prijmeni" id="prijmeni" placeholder="vaše příjmení"></div>
+        <div class="btn">
+            <label for="muz">Muž</label>
+            <input type="radio" name="pohlavi" id="muz"><br>
+            <label for="zena">Žena</label>
+            <input type="radio" name="pohlavi" id="zena"><br>
+            <label for="obojzivelnik">Obojživelník</label>
+            <input type="radio" name="pohlavi" id="oboj">
+        </div>
+
+        
+        </div>
+        <label for="cars">Máte zkušenosti</label>
+        <select name="cars" id="cars">
+            <div class="auta">
+                <option value="Ano">Ano</option>
+                <option value="Ne">Ne</option>
+            </div>
+        </select>
+        <div class="btn"><input type="submit" value="odeslat"></div>
+    </form>
+
+</body>
+</html>

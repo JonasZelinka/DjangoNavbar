@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css2?family=Unna&display=swap');
+
+
+:root{
+    --primary-color: rgb(255, 255, 255);
+    --secondary-color: rgb(171, 26, 166);
+}
+html{
+    scroll-behavior: smooth;
+    color: var(--primary-color);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:content-box;
+}
+
+#logo {
+    font-family: 'Unna', serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+body {
+
+    
+}
+
+.text-primary {
+    color: var(--secondary-color)
+}
+#navbar {
+    position: fixed;
+    background-color: rgb(0, 0, 0);
+    color: rgb(155, 155, 155);
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    justify-content: space-between;
+    width: 99%;
+    color: var(--primary-color);
+}
+#navbar a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+}
+#navbar ul{
+    display: flex;
+    list-style: none;
+    align-items: center;
+}
+
+#navbar ul li a{
+    padding: 0.75rem;
+    margin: 0 0.25rem;
+}
+#navbar ul li :hover{
+    background-color: var(--primary-color);
+    border-radius: 5px;
+    color: black;
+}
+#showcase {
+    background: #333 url('../img/krzysztof-hepner-C1JTOq_uTpY-unsplash.jpg')no-repeat center center/cover;
+    height: 100vh;
+    padding-top: 10px;
+}
+#showcase .showcase-content {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 0 2rem;
+    background-color: rgba(0, 0, 0, 0)
+}
+.l-heading {
+    font-size: 4rem;
+    margin-bottom: 1.3rem;
+    line-height: 1.1;
+}
+.lead {
+    font-size: 2rem;
+    margin-bottom: 2rem;
+    color: var(--primary-color);
+}
+.btn {
+    display: inline-block;
+    color: var(--primary-color);
+    background-color: black;
+    text-decoration: var(--primary-color);
+    padding: 0.5rem 2rem;
+    border: none;
+    border-radius: 7px;
+}
+.btn:hover {
+    background-color: var(--secondary-color);
+}
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 0 2rem;
+}
+.text-center {
+    text-align: center;
+}
+.m-heading {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    padding-top: 10px;
+}
+.p-1{
+    padding: 1.5rem;
+}
+.p-2{
+    padding: 2rem;
+}
+.p-3{
+    padding: 3rem;
+}
+.list{
+    margin: 0.5rem 0;
+    list-style: none;
+}
+.list li{
+    padding: 0.5rem 0;
+    border-bottom: #444 dotted 1px;
+}
+.py-1 {
+    padding: 1.5rem 0;
+}
+
+.text-primery {
+    background-color: none;
+    color: var(--secondary-color);
+}
+
+#what .items {
+    display: flex ;
+    padding: 1rem;
+    justify-content: space-between;
+}
+#what .item {
+    text-align: center;
+    padding: 1rem;
+}
+#what .items .item i{
+    background-color: var(--secondary-color);
+    padding: 2rem;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.bg-light{
+    background: var(--secondary-color);
+    color: rgb(255, 253, 253);
+}
+.bg-dark{
+    background: rgb(40, 40, 40);
+    color: white;
+}
+#who{
+    padding-bottom: 1rem;
+    display: flex;
+}
+#who div{
+    flex: 1;
+    justify-content: space-between;
+    
+}
+#who .who-img{
+    background: url('../img/maksym-kaharlytskyi-851_Smpkk-U-unsplash.jpg') no-repeat center center/cover;
+    height: 60vh;
+    justify-content: center;
+    
+}
+.container2 {
+    margin: none;
+    padding: 15px;
+}
+.topnav {
+    overflow: hidden;
+    background-color: #333;
+    position: relative;
+}
+.text-primory {
+    color: black;
+}
